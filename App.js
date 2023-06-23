@@ -174,7 +174,7 @@ export default function App() {
                 onPress={() => {
                   setAriesModal(true);
                   sound.unloadAsync();
-                  playSound(require('./assets/sounds/HighNoon-TrackTribe.mp3'));
+                  playSound(require('./assets/sounds/Aries.mp3'));
                 }}
               />
 
@@ -182,6 +182,7 @@ export default function App() {
                 onPress={() => {
                   setTouroModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Touro.mp3'));
                 }}
               />
 
@@ -189,6 +190,7 @@ export default function App() {
                 onPress={() => {
                   setGemeosModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Gemeos.mp3'));
                 }}
               />
 
@@ -196,6 +198,7 @@ export default function App() {
                 onPress={() => {
                   setCancerModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Cancer.mp3'));
                 }}
               />
 
@@ -203,6 +206,7 @@ export default function App() {
                 onPress={() => {
                   setLeaoModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Leao.mp3'));
                 }}
               />
 
@@ -210,6 +214,7 @@ export default function App() {
                 onPress={() => {
                   setVirgemModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Virgem.mp3'));
                 }}
               />
 
@@ -217,6 +222,7 @@ export default function App() {
                 onPress={() => {
                   setLibraModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Libra.mp3'));
                 }}
               />
 
@@ -224,6 +230,7 @@ export default function App() {
                 onPress={() => {
                   setEscorpiaoModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Escorpiao.mp3'));
                 }}
               />
 
@@ -231,6 +238,7 @@ export default function App() {
                 onPress={() => {
                   setSagitarioModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Sagitario.mp3'));
                 }}
               />
 
@@ -238,6 +246,7 @@ export default function App() {
                 onPress={() => {
                   setCapricornioModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Capricornio.mp3'));
                 }}
               />
 
@@ -245,6 +254,7 @@ export default function App() {
                 onPress={() => {
                   setAquarioModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Aquario.mp3'));
                 }}
               />
 
@@ -252,6 +262,7 @@ export default function App() {
                 onPress={() => {
                   setPeixesModal(true);
                   sound.unloadAsync();
+                  playSound(require('./assets/sounds/Peixes.mp3'));
                 }}
               />
 
