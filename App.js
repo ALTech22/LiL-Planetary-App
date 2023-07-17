@@ -135,7 +135,10 @@ export default function App() {
         `} />}
         {sagitarioModal && <ConstellationModal img={require('./assets/constellations/Sagitario.jpg')} setModalVisible={setSagitarioModal} modalVisible={sagitarioModal} title="Sagitario" 
         text={`
-
+        O signo de Sagitário é representado como um arqueiro, frequentemente associado ao centauro Quíron, da mitologia grega, que era um sábio e habilidoso com o arco. 
+        Na astronomia, a constelação de Sagitário está localizada no hemisfério celestial sul, próxima ao centro da Via Láctea. É uma constelação grande e facilmente identificável, com uma forma que se assemelha a uma chaleira ou bule.
+        Dentro da constelação de Sagitário, existe uma região conhecida como Centro Galáctico, onde está localizado um objeto extremamente interessante: um buraco negro supermassivo chamado Sagittarius A*. Esse buraco negro está localizado no coração da Via Láctea, a cerca de 26.000 anos-luz da Terra. Sagittarius A* tem uma massa equivalente a cerca de 4 milhões de vezes a massa do nosso Sol e exerce uma forte influência gravitacional na região ao seu redor.
+        Além das estrelas, Sagitário abriga um objeto celestial fascinante chamado de Nebulosa da Lagoa. Essa nebulosa é uma nuvem de gás e poeira interestelar onde novas estrelas estão se formando. Ela é visível como uma mancha difusa no céu e é um alvo popular para observação astronômica.
         `} />}
         {capricornioModal && <ConstellationModal img={require('./assets/constellations/Capricorn.jpg')} setModalVisible={setCapricornioModal} modalVisible={capricornioModal} title="Capricornio" 
         text={`
